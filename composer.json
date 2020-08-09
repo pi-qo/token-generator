@@ -1,6 +1,6 @@
 {
     "name": "pi-qo/token-generator",
-    "description": "Package to generate cryptographically correct tokens in PHP.",
+    "description": "Package to generate cryptographically secure tokens in PHP.",
     "type": "library",
     "require": {
         "php": "^7.2"
