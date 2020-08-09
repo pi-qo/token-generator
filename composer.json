@@ -1,0 +1,20 @@
+{
+    "name": "pi-qo/token-generator",
+    "description": "Package to generate cryptographically correct tokens in PHP.",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "d9beuD",
+            "email": "53569029+d9beuD@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PiQo\\": "src"
+        }
+    }
+}
