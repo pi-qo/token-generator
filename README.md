@@ -10,7 +10,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use PiQo\Token;
 ```
 
-Then the token is generated when the class is instanciated. The default length is 32 bytes, you can use the one you want by supply it to the constructor.
+Then the token is generated when the class is instanciated. The default length is 32 bytes, you can use the one you want by providing it to the constructor.
 
 ```php
 $generated = new Token(64);
