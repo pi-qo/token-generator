@@ -14,5 +14,6 @@ Then the token is generated when the class is instanciated. The default length i
 
 ```php
 $generated = new Token(64);
-$token = $generated->getHex();
+$token = $generated->getHex(); // Human readable
+$token = $generated->getRaw(); // for the raw generated token
 ```
